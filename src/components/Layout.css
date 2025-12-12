@@ -1,0 +1,38 @@
+nav button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: o;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 10px;
+}
+
+.isOpen ul {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    nav button {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    .isOpen nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
