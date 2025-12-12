@@ -2,7 +2,7 @@
   "name": "ysameetings",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://PinkArmy10.github.io/Indy-Stake-YSA",
+  "homepage": "https://pinkarmy10.github.io/Indy-Stake-YSA/",
 
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
