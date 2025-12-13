@@ -32,6 +32,7 @@ nav {
   background-color: #333;
   padding: 10px;
   overflow: hidden;
+  z-index: 100;
 }
 
 nav a {
@@ -431,4 +432,15 @@ nav ul {
 
 .contact-submissions li {
   margin-bottom: 4px;
+}
+
+
+.accordion {
+  margin-top: 24px;
+  max-width: 600px;
+}
+
+.accordion h2 {
+  margin-bottom: 8px;
+  text-align: left;
 }
