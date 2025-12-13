@@ -8,9 +8,6 @@ import Calendar from "./pages/calendar";
 import Layout from "./components/Layout";
 import "./App.css";
 
-// inside <Routes>
-<Route path="/caltest" element={<CalendarTest />} />
-
 
 function App() {
   return (
