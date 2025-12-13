@@ -7,7 +7,6 @@ import Contact from "./pages/contact";
 import Calendar from "./pages/calendar";
 import Layout from "./components/Layout";
 import "./App.css";
-import CalendarTest from "./pages/CalendarTest";
 
 // inside <Routes>
 <Route path="/caltest" element={<CalendarTest />} />
@@ -17,7 +16,6 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/caltest" element={<CalendarTest />} />
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
