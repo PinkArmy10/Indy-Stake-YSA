@@ -1,6 +1,7 @@
 import "../App.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import ysaEvents from "../components/eventsData";
 
 import React, { useState } from "react";
 import { Calendar, momentLocalizer } from "react-big-calendar";
@@ -9,24 +10,76 @@ import "react-big-calendar/lib/css/react-big-calendar.css";
 
 const localizer = momentLocalizer(moment);
 
+// Helper: convert your YSA events into calendar events
+function buildCalendarEvents() {
+  const events = [];
+
+  ysaEvents.forEach((e) => {
+    if (e.id === 1) {
+      // Monthly YSA Meeting – pick next "3rd Saturday" at 1:00 PM
+      const base = moment().month(11).year(2025); // e.g., December 2025 for demo
+      const thirdSaturday = base
+        .startOf("month")
+        .day(6 + 14); // 6 = Saturday; +14 -> 3rd Saturday
+      const start = thirdSaturday.hour(13).minute(0).toDate();
+      const end = thirdSaturday.hour(15).minute(0).toDate();
+
+      events.push({
+        id: e.id,
+        title: e.title,
+        start,
+        end,
+        allDay: false,
+      });
+    } else if (e.id === 2) {
+      // Book of Mormon Study – pick next Wednesday at 8:30 PM
+      const nextWed = moment().day(3); // 3 = Wednesday
+      if (nextWed.isBefore(moment())) nextWed.add(1, "week");
+      const start = nextWed.hour(20).minute(30).toDate();
+      const end = nextWed.hour(21).minute(30).toDate();
+
+      events.push({
+        id: e.id,
+        title: e.title,
+        start,
+        end,
+        allDay: false,
+      });
+    } else if (e.id === 3) {
+      // Temple Trip – "December 13th 2025", 1–3 PM block
+      const start = moment("December 13th 2025 1:00 PM", "MMMM Do YYYY h:mm A").toDate();
+      const end = moment("December 13th 2025 3:00 PM", "MMMM Do YYYY h:mm A").toDate();
+
+      events.push({
+        id: e.id,
+        title: e.title,
+        start,
+        end,
+        allDay: false,
+      });
+    } else if (e.id === 4) {
+      // Caroling – "December 20th 2025", 7–9 PM (example)
+      const start = moment("December 20th 2025 7:00 PM", "MMMM Do YYYY h:mm A").toDate();
+      const end = moment("December 20th 2025 9:00 PM", "MMMM Do YYYY h:mm A").toDate();
+
+      events.push({
+        id: e.id,
+        title: e.title,
+        start,
+        end,
+        allDay: false,
+      });
+    }
+  });
+
+  return events;
+}
+
 function CalendarPage() {
     const headingTitle = "Indy YSA Calendar";
 
     // Preset events
-    const [events, setEvents] = useState([
-        {
-            id:1,
-            start: moment().toDate(),
-            end: moment().add(1, "hours").toDate(),
-            title: "Event 1",
-        },
-        {
-            id:2,
-            start: moment().toDate(),
-            end: moment().add(1, "days").toDate(),
-            title: "Some title",
-        },
-    ]);
+    const [events, setEvents] = useState(buildCalendarEvents());
 
     // user added events
     const handleSelectSlot = ({ start, end }) => {
