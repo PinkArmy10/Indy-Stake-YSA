@@ -35,63 +35,64 @@ const Contact = () => {
 
         {/* Right: YSA pages/links */}
       <div className="contact-links">
+        <h3>Click text to link</h3>
         <section className="links-section">
           <h2>Indiana YSA&apos;s</h2>
           <ul>
             <li>
                 <h3>Bloomington YSA: </h3>
                 
-                <a href="https://www.google.com/url?q=https%3A%2F%2Flocal.churchofjesuschrist.org%2Fen%2Funits%2Fus%2Fin%2Fbloomington-ysa-branch&sa=D&sntz=1&usg=AOvVaw19CNyb6uZB6C0AZ7HjT5p8">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Flocal.churchofjesuschrist.org%2Fen%2Funits%2Fus%2Fin%2Fbloomington-ysa-branch&sa=D&sntz=1&usg=AOvVaw19CNyb6uZB6C0AZ7HjT5p8">
                     Branch Page
                 </a>
-                <a href="https://www.google.com/url?q=https%3A%2F%2Fgroupme.com%2Fjoin_group%2F106756370%2Fc6p4x4Jm&sa=D&sntz=1&usg=AOvVaw3-nJKvyI5tX6XfCVUn2yPi">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Fgroupme.com%2Fjoin_group%2F106756370%2Fc6p4x4Jm&sa=D&sntz=1&usg=AOvVaw3-nJKvyI5tX6XfCVUn2yPi">
                     GroupMe
                 </a>
             </li>
 
             <li>
                 <h3>Indianapolis YSA: </h3>
-                <a href="https://local.churchofjesuschrist.org/en/units/us/in/indianapolis-ysa-branch">
+                <a target="_blank" rel="noopener noreferrer" href="https://local.churchofjesuschrist.org/en/units/us/in/indianapolis-ysa-branch">
                     Branch Page
                 </a>
-                <a href="https://sites.google.com/view/indyysabranch/ysa-contacts?authuser=0">
+                <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/indyysabranch/ysa-contacts?authuser=0">
                     Contacts Page (Best)
                 </a>
-                <a href="https://www.google.com/url?q=https%3A%2F%2Fgroupme.com%2Fjoin_group%2F110457423%2FmP7P2bwl&sa=D&sntz=1&usg=AOvVaw1Na8cfBLmhVn1gqjPXOiw4">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Fgroupme.com%2Fjoin_group%2F110457423%2FmP7P2bwl&sa=D&sntz=1&usg=AOvVaw1Na8cfBLmhVn1gqjPXOiw4">
                     GroupMe
                 </a>
             </li>
 
             <li>
                 <h3>Lafayette YSA: </h3>
-                <a href="https://www.google.com/url?q=https%3A%2F%2Flocal.churchofjesuschrist.org%2Fen%2Funits%2Fus%2Fin%2Flafayette-ysa-ward&sa=D&sntz=1&usg=AOvVaw1Bf5XAT-FpMp_BvGCKdBo3">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Flocal.churchofjesuschrist.org%2Fen%2Funits%2Fus%2Fin%2Flafayette-ysa-ward&sa=D&sntz=1&usg=AOvVaw1Bf5XAT-FpMp_BvGCKdBo3">
                     Branch Page
                 </a>
-                <a href="https://www.google.com/url?q=https%3A%2F%2Fgroupme.com%2Fjoin_group%2F90134514%2FoZkHLjyq&sa=D&sntz=1&usg=AOvVaw0xmVJSAwHkMtmOQaCWxSeT">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Fgroupme.com%2Fjoin_group%2F90134514%2FoZkHLjyq&sa=D&sntz=1&usg=AOvVaw0xmVJSAwHkMtmOQaCWxSeT">
                     GroupMe
                 </a>
             </li>
 
             <li>
                 <h3>Michiana  YSA: </h3>
-                <a href="https://www.google.com/url?q=https%3A%2F%2Flocal.churchofjesuschrist.org%2Fen%2Funits%2Fus%2Fin%2Fmichiana-ysa-branch&sa=D&sntz=1&usg=AOvVaw14VBYoNmhCL3klKtCP57L-">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Flocal.churchofjesuschrist.org%2Fen%2Funits%2Fus%2Fin%2Fmichiana-ysa-branch&sa=D&sntz=1&usg=AOvVaw14VBYoNmhCL3klKtCP57L-">
                     Branch Page
                 </a>
-                <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2F1BjnAyEMs6%2F&sa=D&sntz=1&usg=AOvVaw1GgmSTO550jn_0TgaPG5vp">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2F1BjnAyEMs6%2F&sa=D&sntz=1&usg=AOvVaw1GgmSTO550jn_0TgaPG5vp">
                     Facebook
                 </a>
             </li>
 
             <li>
                 <h3>Muncie YSA: </h3>
-                <a href="https://www.google.com/url?q=https%3A%2F%2Flocal.churchofjesuschrist.org%2Fen%2Funits%2Fus%2Fin%2Fmuncie-ysa-branch&sa=D&sntz=1&usg=AOvVaw2G3qdv7eRsuj2rB37FV4YV">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Flocal.churchofjesuschrist.org%2Fen%2Funits%2Fus%2Fin%2Fmuncie-ysa-branch&sa=D&sntz=1&usg=AOvVaw2G3qdv7eRsuj2rB37FV4YV">
                     Branch Page
                 </a>
             </li>
 
             <li>
                 <h3>Fishers YSA: </h3>
-                <a href="https://www.google.com/url?q=https%3A%2F%2Fgroupme.com%2Fjoin_group%2F100799682%2FeRHW0TgW&sa=D&sntz=1&usg=AOvVaw3EDEtF1LQeeDGKVh_bHhhM">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Fgroupme.com%2Fjoin_group%2F100799682%2FeRHW0TgW&sa=D&sntz=1&usg=AOvVaw3EDEtF1LQeeDGKVh_bHhhM">
                     GroupMe
                 </a>
             </li>
@@ -103,20 +104,20 @@ const Contact = () => {
           <ul>
             <li>
                 <h3>Cincinnati YSA: </h3>
-                <a href="https://www.google.com/url?q=https%3A%2F%2Flocal.churchofjesuschrist.org%2Fen%2Funits%2Fus%2Foh%2Fcincinnati-ysa-ward&sa=D&sntz=1&usg=AOvVaw0ym2bFaIXQEcPKMwrPV5Dp">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Flocal.churchofjesuschrist.org%2Fen%2Funits%2Fus%2Foh%2Fcincinnati-ysa-ward&sa=D&sntz=1&usg=AOvVaw0ym2bFaIXQEcPKMwrPV5Dp">
                     Branch Page
                 </a>
-                <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2F1BjnAyEMs6%2F&sa=D&sntz=1&usg=AOvVaw1GgmSTO550jn_0TgaPG5vp">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2F1BjnAyEMs6%2F&sa=D&sntz=1&usg=AOvVaw1GgmSTO550jn_0TgaPG5vp">
                     Facebook
                 </a>
             </li>
 
             <li>
                 <h3>Dayton YSA: </h3>
-                <a href="https://www.google.com/url?q=https%3A%2F%2Flocal.churchofjesuschrist.org%2Fen%2Funits%2Fus%2Foh%2Fdayton-ysa-branch&sa=D&sntz=1&usg=AOvVaw1MZRSJ2hfgWGGiPKX5g26B">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Flocal.churchofjesuschrist.org%2Fen%2Funits%2Fus%2Foh%2Fdayton-ysa-branch&sa=D&sntz=1&usg=AOvVaw1MZRSJ2hfgWGGiPKX5g26B">
                     Branch Page
                 </a>
-                <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F2252397856%2F%3Fref%3Dshare%26mibextid%3DWaXdOe&sa=D&sntz=1&usg=AOvVaw0CYMsxySJEPgEJPPR9-pax">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?q=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F2252397856%2F%3Fref%3Dshare%26mibextid%3DWaXdOe&sa=D&sntz=1&usg=AOvVaw0CYMsxySJEPgEJPPR9-pax">
                     Facebook
                 </a>
             </li>

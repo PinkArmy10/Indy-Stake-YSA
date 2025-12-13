@@ -353,8 +353,20 @@ nav ul {
 .links-section a {
   display: inline-block;
   margin-right: 8px;
+  margin-bottom: 4px;
   font-size: 0.9rem;
+  color: #1d4ed8;          /* blue */
+  text-decoration: underline;
 }
+
+.links-section a:hover {
+  color: #1e40af;          /* darker blue on hover */
+}
+
+.contact-links h3 {
+  margin-bottom: 8px;
+}
+
 
 /* ============================================== events page component ============================================== */
 
