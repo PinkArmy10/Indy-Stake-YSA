@@ -17,7 +17,7 @@ const events = [
     },
     {
         id: 3,
-        title: "Templke Trip",
+        title: "Temple Trip",
         date: "December 13th 2025",
         location: "Indy Temple",
         address: "11565 Temple Dr. Carmel IN 46032",

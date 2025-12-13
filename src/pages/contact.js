@@ -55,7 +55,7 @@ const Contact = () => {
                     Branch Page
                 </a>
                 <a href="https://sites.google.com/view/indyysabranch/ysa-contacts?authuser=0">
-                    Contacts Page (preferd)
+                    Contacts Page (Best)
                 </a>
                 <a href="https://www.google.com/url?q=https%3A%2F%2Fgroupme.com%2Fjoin_group%2F110457423%2FmP7P2bwl&sa=D&sntz=1&usg=AOvVaw1Na8cfBLmhVn1gqjPXOiw4">
                     GroupMe

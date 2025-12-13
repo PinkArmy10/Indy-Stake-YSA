@@ -21,10 +21,10 @@ function CalendarPage() {
             title: "Event 1",
         },
         {
-        id:2,
-        start: moment().toDate(),
-        end: moment().add(1, "days").toDate(),
-        title: "Some title",
+            id:2,
+            start: moment().toDate(),
+            end: moment().add(1, "days").toDate(),
+            title: "Some title",
         },
     ]);
 
@@ -47,9 +47,10 @@ function CalendarPage() {
 
     const handleSelectEvent = (event) => {
         const action = window.prompt(
-            `Event: "&{event.title}"\nType "d" to delete, or enter a new title to rename:`, 
+            `Event: "${event.title}"\nType "d" to delete, or enter a new title to rename:`,
             event.title
         );
+
 
         if (action === null) return; //cancelled
 
