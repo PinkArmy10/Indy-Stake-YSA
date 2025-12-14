@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Indy-Stake-YSA/static/css/main.8c706f6a.css",
-    "main.js": "/Indy-Stake-YSA/static/js/main.e0230446.js",
+    "main.js": "/Indy-Stake-YSA/static/js/main.a57ec828.js",
     "index.html": "/Indy-Stake-YSA/index.html",
     "main.8c706f6a.css.map": "/Indy-Stake-YSA/static/css/main.8c706f6a.css.map",
-    "main.e0230446.js.map": "/Indy-Stake-YSA/static/js/main.e0230446.js.map"
+    "main.a57ec828.js.map": "/Indy-Stake-YSA/static/js/main.a57ec828.js.map"
   },
   "entrypoints": [
     "static/css/main.8c706f6a.css",
-    "static/js/main.e0230446.js"
+    "static/js/main.a57ec828.js"
   ]
 }
