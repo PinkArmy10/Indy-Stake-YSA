@@ -41,7 +41,7 @@ function ContactForm() {
   return (
     <div className="contact-form-wrapper">
       <form onSubmit={handleSubmit} className="contact-form">
-        <h2>Send us a message</h2>
+        <h2>Have any Suggestions foe activitys? Send us a message below: </h2>
 
         <label>
           Name
