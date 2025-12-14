@@ -1,9 +1,13 @@
 import "../App.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ContactForm from "../components/ContactForm";
-import Poll from "../components/Poll";
 import Accordion from "../components/Accordion";
+
+//import Poll from "../components/Poll";
+import Poll from "../components/FirebasePoll";
+//import ContactForm from "../components/ContactForm";
+import ContactForm from "../components/FirebaseContactForm";
+
 
 function SeasonalPlans() {
   return (
