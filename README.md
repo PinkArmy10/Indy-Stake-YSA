@@ -1,6 +1,6 @@
 # Indy Stake YSA Website
 
-A single-page React application for the Indianapolis Stake Young Single Adult (YSA) information hub. It provides announcements, flyers, events, a contact directory, external YSA links, and an interactive calendar.
+Modern, responsive React website for Indianapolis Young Single Adults (YSA) ward events. Features Firebase real-time data, performant components, and mobile-first design deployed to GitHub Pages. It provides announcements, flyers, events, a contact directory, external YSA links, and an interactive calendar.
 
 Live site: `https://pinkarmy10.github.io/Indy-Stake-YSA`
 
@@ -31,6 +31,7 @@ Live site: `https://pinkarmy10.github.io/Indy-Stake-YSA`
 - Tailwind CSS utilities plus custom CSS
 - `react-big-calendar` + `moment` for the calendar
 - `gh-pages` for deployment to GitHub Pages
+- Firebase 12.6.0 for data persistence
 
 ---
 
